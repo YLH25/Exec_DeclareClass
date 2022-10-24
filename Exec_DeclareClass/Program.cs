@@ -11,22 +11,8 @@ namespace Exec_DeclareClass
 	{
 		static void Main(string[] args)
 		{
-			Member member = new Member();
-			Console.Write("新會員帳號");
-			
-			Console.Write("新會員密碼");
-
-			Console.Write("請輸入帳號");
-
-			Console.Write("請輸入密碼");
-
-
-
-
-
-		}
-		class Address
-		{ 
+			class Address
+		{
 			public string City { get; set; }
 			public string ZipCode { get; set; }
 
@@ -48,12 +34,13 @@ namespace Exec_DeclareClass
 			public Address Address { get; set; }
 			public string Cellphone { get; set; }
 			public Telphone Telphone { get; set; }
-			public void Register(Member Name, Member Account, Member Password, Member ConfirmPassword) 
-			{ }
-			public void ForgetPassword(Member Name,Member Email ) 
+			public void Register(string Name, string Account, string Password, string ConfirmPassword)
+			{
+			}
+			public void ForgetPassword(string Name, string Email)
 			{ }
 
-			public void Authenticate(Member Account, Member Password) 
+			public void Authenticate(string Account, string Password)
 			{ }
 		}
 		
