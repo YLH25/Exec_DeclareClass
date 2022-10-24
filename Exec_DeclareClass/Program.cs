@@ -10,8 +10,9 @@ namespace Exec_DeclareClass
 	internal class Program
 	{
 		static void Main(string[] args)
-		{
-			class Address
+		{ 
+		}
+		class Address
 		{
 			public string City { get; set; }
 			public string ZipCode { get; set; }
@@ -35,14 +36,13 @@ namespace Exec_DeclareClass
 			public string Cellphone { get; set; }
 			public Telphone Telphone { get; set; }
 			public void Register(string Name, string Account, string Password, string ConfirmPassword)
-			{
-			}
+			{ }
 			public void ForgetPassword(string Name, string Email)
 			{ }
 
 			public void Authenticate(string Account, string Password)
 			{ }
 		}
-		
+	
 	}
 }
